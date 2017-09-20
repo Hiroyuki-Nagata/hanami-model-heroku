@@ -39,6 +39,7 @@ GEM
       transproc (~> 1.0)
     ice_nine (0.11.2)
     inflecto (0.0.2)
+    jruby-pg (0.1-java)
     rom (3.3.1)
       concurrent-ruby (~> 1.0)
       dry-core (~> 0.3)
@@ -69,6 +70,7 @@ PLATFORMS
 
 DEPENDENCIES
   hanami-model
+  jruby-pg (~> 0.1)
 
 RUBY VERSION
    ruby 2.3.3p0 (jruby 9.1.12.0)

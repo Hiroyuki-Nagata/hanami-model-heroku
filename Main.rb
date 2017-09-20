@@ -1,10 +1,10 @@
 require 'hanami/model'
 
-class User < Hanami::Entity
-end
+#class User < Hanami::Entity
+#end
 
-class UserRepository < Hanami::Repository
-end
+#class UserRepository < Hanami::Repository
+#end
 
 Hanami::Model.configure do
   adapter :sql, ENV['DATABASE_URL']
